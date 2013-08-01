@@ -1,0 +1,12 @@
+{
+  "name": "nodepdatepicker",
+  "version": "0.1.3",
+  "main": "nodepdatepicker.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
