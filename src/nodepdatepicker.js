@@ -1,6 +1,6 @@
 /*!
  * @author Steen Klingberg
- * @version v0.1.3, 2013
+ * @version v0.1.4, 2013-2014
  * @license MIT License
  */
 (function () {
@@ -72,6 +72,7 @@
 			w = Math.floor(yd / 7) + 1;		
 			if (w > 52) {
 				fd.setDate(31);
+				fd.setMonth(11);
 				var wd = (fd.getDay() + 6) % 7;
 				w = wd < 4 ? 1 : w;
 			}
