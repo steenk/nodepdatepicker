@@ -194,7 +194,7 @@
 				}
 
 				popup.addEventListener('click', function () {
-					input.value = formatDate(new Date(year.value, month.value, day.value), 'yyyy-mm-dd');
+					input.value = formatDate(new Date(year.value, month.value, day.value), conf.format || defaultConf.format);
 				});
 
 				/* buttons */
